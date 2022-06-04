@@ -7,14 +7,15 @@ product_categories_df = pd.read_json("pc.json")
 
 period = "July 2021"
 
-print(f"\nThis is an estimation of the budget of the freights in the next month for this business. See results below.")
+print(f"\nThis is an estimation of the budget of the freights in the next month for this business. See results below:")
 
 def question_1(low,mid,high):
     total_freight = orders_df['freight'].sum()
     result_str = f"\nThe total freight expense for {period} is ${total_freight:,.2f}. Based on this, below estimates are provided.\n\n"
     result_str = f"low range budget increase {low}% is ${total_freight * (1 + low/100):,.2f}\n"
     result_str = f"mid range budget increase {mid}% is ${total_freight * (1 + mid/100):,.2f}\n"
-    result_str = f"high range budget increase {high}% is ${total_freight * (1 + high/ 100):,.2f}\n"
+    print("\n")
+    result_str = f"High range budget increase {high}% is ${total_freight * (1 + high/ 100):,.2f}\n"
     return result_str
 
 print(question_1(5,10,15))
