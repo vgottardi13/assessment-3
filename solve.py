@@ -7,7 +7,7 @@ product_categories_df = pd.read_json("pc.json")
 
 period = "July 2021"
 
-print(f"\nThis a estimation of the budget of the freights in the next month for this business. See results below")
+print(f"\nThis is an estimation of the budget of the freights in the next month for this business. See results below.")
 
 def question_1(low,mid,high):
     total_freight = orders_df['freight'].sum()
