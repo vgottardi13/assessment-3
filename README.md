@@ -10,9 +10,10 @@ Examine the datasets to understand what data you have. Then, write Python progra
 
 ## Questions
 1. Based on the freights spent on these orders, please estimate the budget of the freights in the next month for this business. Note that you can decide on how to estimate the budget, but the budget should not be lower than the calculated freight cost.
-1. Try to find the countries with the most orders, which implies the strong markets that the business should focus on.
-1. The business wants to reward customers who buy frequently by rewarding them with discount coupons. Find 3 customers who have the highest number of orders in the dataset.
-1. Which product category has the highest sales revenue? These products are popular and there may be implications for business operations. *(Note: The total sales of a product is the sum of the values of ``unit price * quantity`` in all relevant orders. The sales of a product category are the sum of the total sales of the products in the category.)*
+2. Try to find the countries with the most orders, which implies the strong markets that the business should focus on.
+3. The business wants to reward customers who buy frequently by rewarding them with discount coupons. 
+Find 3 customers who have the highest number of orders in the dataset.
+4. Which product category has the highest sales revenue? These products are popular and there may be implications for business operations. *(Note: The total sales of a product is the sum of the values of ``unit price * quantity`` in all relevant orders. The sales of a product category are the sum of the total sales of the products in the category.)*
 
 ## Requirements
 1. (For Q4) You need to match the product category ID to its name using a program. Merely reporting the product category ID is not acceptable.
